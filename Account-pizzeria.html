@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Личный кабинет</title>
-    <link rel="stylesheet" href="Account-pizzeria.css">
+    <link rel="stylesheet" href="css/Account-pizzeria.css">
 </head>
 <body>
 <form action="">
     <button class="btn-back">
-        <a href="pizzeria.html" id="goToMainBtn">← На главную</a>
+        <a href="index.html" id="goToMainBtn">← На главную</a>
     </button>
 </form>
 <img src="" alt="" class="avatar">
@@ -41,7 +41,7 @@
     <div class="Card-for-payment">Карта для оплаты:</div>
     <div class="сard"></div>
 </div>
-<a href="pizzeria.html"><button class="save">Сохранить изменения</button></a>
+<a href="index.html"><button class="save">Сохранить изменения</button></a>
 
 <script>
 let dbManager;
@@ -79,7 +79,7 @@ async function displayUserData(user, avatarUrl) {
             if (user) {
                 sessionStorage.setItem('user', JSON.stringify(user));
             }
-            window.location.href = 'pizzeria.html';
+            window.location.href = 'index.html';
         };
     }
     

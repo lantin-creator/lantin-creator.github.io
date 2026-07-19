@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Регистрация</title>
-    <link rel="stylesheet" href="Register-pizzeria.css">
+    <link rel="stylesheet" href="css/Register-pizzeria.css">
 </head>
 <body>
     <form action="">
         <button class="btn-back">
-            <a href="pizzeria.html">← На страницу входа</a>
+            <a href="index.html">← На страницу входа</a>
         </button>
     </form>
     
@@ -326,12 +326,12 @@
                         localStorage.setItem(`avatar_${formData.email}`, avatarData);
                         localStorage.setItem("avatar", avatarData);
                         console.log('Фото сохранено');
-                        window.location.href = 'Account-pizzeria.html';
+                        window.location.href = 'Account-index.html';
                     };
                     reader.readAsDataURL(uploadedImage);
                 } else {
                     console.log('Данные сохранены без фото');
-                    window.location.href = 'Account-pizzeria.html';
+                    window.location.href = 'Account-index.html';
                 }
                 
                 return true;
