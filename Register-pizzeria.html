@@ -326,12 +326,12 @@
                         localStorage.setItem(`avatar_${formData.email}`, avatarData);
                         localStorage.setItem("avatar", avatarData);
                         console.log('Фото сохранено');
-                        window.location.href = 'Account-index.html';
+                        window.location.href = 'Account-pizzeria.html';
                     };
                     reader.readAsDataURL(uploadedImage);
                 } else {
                     console.log('Данные сохранены без фото');
-                    window.location.href = 'Account-index.html';
+                    window.location.href = 'Account-pizzeria.html';
                 }
                 
                 return true;

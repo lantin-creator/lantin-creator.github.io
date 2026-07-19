@@ -17,7 +17,7 @@
         <div style="text-align: center; color: white; padding-top: 170px; font-size: 20px;"><h1>Вход</h1></div>
         <input class="number" placeholder="Введите вашу почту/номер телефона">
         <input class="password" placeholder="Введите пароль" type="password">
-        <div class="Register"><a href="Register-index.html">Зарегистрироваться</a></div>
+        <div class="Register"><a href="Register-pizzeria.html">Зарегистрироваться</a></div>
         <button class="Send-code">Войти</button>
     </div>
 <script>
@@ -55,7 +55,7 @@ async function login() {
             console.log('Вход выполнен:', user.name);
             sessionStorage.setItem('userID', user.id);
             sessionStorage.setItem('user', JSON.stringify(user));
-            window.location.href = 'Account-index.html';
+            window.location.href = 'Account-pizzeria.html';
         } else {
             alert('Неверный пароль');
         }
