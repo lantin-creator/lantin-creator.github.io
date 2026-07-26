@@ -158,7 +158,7 @@ a{
 }
 #catalog{
     width: 100%;
-    height: 3900px;
+    height: 100%;
     background-color: black;
 }
 #popular-catalog{
@@ -1519,4 +1519,60 @@ a{
     font-size: 20px;
     color: #FFFFFF;
     opacity: 50%;
+}
+@media (max-width: 1440px){
+    .user{
+        position: absolute;
+        top: 4%;
+        left: 90%;
+    }
+    .name-logo{
+        position: absolute;
+        left: 9%;
+    }
+    .Delivery{
+        left: 10%;
+    }
+    .min{
+        left: 10%;
+    }
+    .plus-cards{
+        left: 10%;
+    }
+    .btn-order{
+        left: 10%;
+    }
+    .Reviews1-card{
+        left: 10%;
+    }
+    .Reviews3-card{
+        left: 70%;
+    }
+    .popular, .pizza, .snacks, .drinks, 
+    .Desserts, .Sauces, .Combo, .Reviews {
+    position: static;
+    padding-left: 0px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1;
+    }
+}
+@media (max-width: 1024px){
+    .name-logo{
+        left: 12%;
+    }
+    .Delivery{
+        font-size: 28px;
+    }
+    .min{
+        font-size: 23px;
+    }
+    .plus-cards{
+        width: 350px;
+        height: 140px;
+    }
+    .hot, .like, .medal{
+        top: 5%;
+    }
 }

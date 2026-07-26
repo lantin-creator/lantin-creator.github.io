@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Личный кабинет</title>
     <link rel="stylesheet" href="css/Account-pizzeria.css">
+    <meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
 <form action="">
@@ -39,7 +40,7 @@
 </div>
 <div class="info-row">
     <div class="Card-for-payment">Карта для оплаты:</div>
-    <div class="сard"></div>
+    <div class="card"></div>
 </div>
 <a href="index.html"><button class="save">Сохранить изменения</button></a>
 
@@ -138,7 +139,7 @@ async function displayUserData(user, avatarUrl) {
     const cityElement = document.querySelector('.city');
     if (cityElement) cityElement.textContent = userData.city || 'Не указано';
     
-    const Cardforpayment = document.querySelector('.сard');
+    const Cardforpayment = document.querySelector('.card');
     if (Cardforpayment) Cardforpayment.textContent = userData.payment || 'Не указано';
 }
 

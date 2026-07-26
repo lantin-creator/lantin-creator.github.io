@@ -130,7 +130,7 @@ a{
     font-size: 35px;
     font-weight: bold;
 }
-.сard{
+.card{
     position: absolute;
     top: 63.5%;
     left: 20%;
@@ -158,4 +158,27 @@ a{
 }
 .info-row {
     margin: 10px 0;
+}
+@media (max-width: 1440px){
+    .name{
+        left: 19%;
+    }
+    .second-name{
+        left: 23%;
+    }
+    .number{
+        left: 23%;
+    }
+    .mail{
+        left: 26.5%;
+    }   
+    .birthday{
+        left: 21%;
+    }
+    .city{
+        left: 25.5%;
+    }
+    .card{
+        left: 25%;
+    }
 }

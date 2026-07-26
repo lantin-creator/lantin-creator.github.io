@@ -1,7 +1,7 @@
 body{
     background-color: black;
     width: auto;
-    height: 925px;
+    height: auto;
 }
 .btn-back{
     background-color: inherit;
@@ -83,4 +83,23 @@ a{
 }
 .card.flipped {
     transform: rotateY(180deg);
+}
+.Entrance{
+    text-align: center;
+    color: white;
+    padding-top: 170px;
+    font-size: 20px;
+}
+@media (max-width: 1440px){
+    .card{
+        width: 800px;
+        height: 700px;
+        margin-left: 300px;
+    }
+    .Register{
+        left: 65%;
+    }
+    .Entrance{
+        padding-top: 150px;
+    }
 }
