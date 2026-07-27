@@ -1926,6 +1926,9 @@ a{
     cursor: pointer;
     z-index: 1;
     }
+    .popular{
+        font-size: 8px;
+    }
     .card-basket{
         margin-right: 0px;
     }
@@ -2033,7 +2036,7 @@ a{
     }
     .text-user2{
         left: -25%;
-        font-size: 14px;
+        font-size: 13px;
     }
     #footer{
         height: 100px;
