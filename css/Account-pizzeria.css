@@ -130,6 +130,11 @@ a{
     font-size: 35px;
     font-weight: bold;
 }
+.god{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+}
 .card{
     position: absolute;
     top: 63.5%;
@@ -180,5 +185,138 @@ a{
     }
     .card{
         left: 25%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1439px){
+    .Name{
+        left: 19%;
+    }
+    .name{
+        left: 25%;
+    }
+    .Second-name{
+        left: 19%;
+    }
+    .second-name{
+        left: 30.5%;
+    }
+    .number{
+        left: 30%;
+    }
+    .mail{
+        top: 42.5%;
+        left: 35%;
+    }
+    .birthday{
+        left: 28%;
+    }
+    .city{
+        left: 34%;
+    }
+    .card{
+        left: 33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .Name{
+        left: 23%;
+    }
+    .name{
+        left: 31%;
+    }
+    .Second-name{
+        left: 23%;
+    }
+    .second-name{
+        left: 38.5%;
+    }
+    .number{
+        left: 39%;
+    }
+    .mail{
+        top: 42.3%;
+        left: 46%;
+    }
+    .birthday{
+        left: 36%;
+    }
+    .city{
+        left: 44%;
+    }
+    .card{
+        left: 43%;
+    }
+}
+@media (min-width: 320px) and (max-width: 760px){
+    .btn-back{
+        padding-left: 0;
+    }
+    .avatar{
+        width: 90px;
+        height: 90px;
+    }
+    .Name{
+        top: 10%;
+        left: 27%;
+    }
+    .name{
+        left: 44%;
+        top: 10%;
+    }
+    .Second-name{
+        top: 16%;
+        left: 27%;
+    }
+    .second-name{
+        top: 16%;
+        left: 59.5%;
+    }
+    .Number{
+        top: 37%;
+        font-size: 22px;
+    }
+    .number{
+        font-size: 20px;
+        left: 50%;
+        top: 37.2%;
+    }
+    .Mail{
+        font-size: 22px;
+        top: 43%;
+    }
+    .mail{
+        font-size: 16px;
+        top: 43.5%;
+        left: 58%;
+    }
+    .Birthday{
+        top: 50%;
+        font-size: 22px;
+    }
+    .birthday{
+        font-size: 20px;
+        top: 50.2%;
+        left: 46%;
+    }
+    .god{
+        font-size: 22px;
+    }
+    .City{
+        font-size: 22px;
+        top: 57%;
+    }
+    .city{
+        left: 56%;
+        top: 57.4%;
+        font-size: 20px;
+    }
+    .Card-for-payment{
+        font-size: 22px;
+        top: 64%;
+    }
+    .card{
+        font-size: 20px;
+        top: 64.2%;
+        left: 53%;
     }
 }

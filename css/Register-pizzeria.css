@@ -5,11 +5,60 @@
 body{
     background-color: black;
     width: auto;
-    height: 925px;
+    height: 100%;
 }
 a{
     text-decoration: none;
     color: white;
+}
+.Birthday{
+    position: absolute; 
+    top: 13%; 
+    left: 2%; 
+    color: white; 
+    font-size: 16px;
+}
+.name{
+    position: absolute; 
+    top: 13%; 
+    left: 20%; 
+    color: white; 
+    font-size: 16px;
+}
+.mail{
+    position: absolute; 
+    top: 23%; 
+    left: 2%; 
+    color: white; 
+    font-size: 16px;
+}
+.second-name{
+    position: absolute; 
+    top: 23%; 
+    left: 20%; 
+    color: white; 
+    font-size: 16px;
+}
+.addres{
+    position: absolute; 
+    top: 33%; 
+    left: 20%; 
+    color: white; 
+    font-size: 16px;
+}
+.Password{
+    position: absolute; 
+    top: 73%; 
+    left: 9%; 
+    color: white; 
+    font-size: 16px;
+}
+.card{
+    position: absolute; 
+    top: 43%; 
+    left: 2%; 
+    color: white; 
+    font-size: 16px;
 }
 .btn-back{
     background-color: inherit;
@@ -39,7 +88,7 @@ a{
     position: relative;
     width: 50px;
     height: 50px;
-    top: 2%;
+    margin-top: 20px;
     left: 11%;
 }
 .Photo {
@@ -209,4 +258,52 @@ a{
 }
 .autocomplete-list div:hover {
     background: #3a3a3a;
+}
+@media (max-width: 1440px){
+    .Register{
+        left: 17%;
+    }
+    .mail{
+        font-size: 14px;
+    }
+    .upload-container{
+        margin-top: 15px;
+        left: 13%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1439px){
+    .upload-container{
+        margin-top: 15px;
+        left: 18%;
+    }
+    .Register{
+        left: 23%;
+    }
+    .name, .second-name, .addres{
+        left: 28%;
+    }
+    .Name, .Second-name, .City{
+        left: 28%;   
+    }
+}
+@media (min-width: 768px) and (max-width: 1020px){
+    .upload-container{
+        margin-top: 30px;
+        left: 19%;
+    }
+    .Register{
+        left: 25%;
+    }
+    .name, .second-name, .addres{
+        left: 30%;
+    }
+    .Name, .Second-name, .City{
+        left: 30%;   
+    }
+}
+@media (min-width: 320px) and (max-width: 760px){
+    .upload-container{
+        margin-top: 110px;
+        left: 20%;
+    }
 }
