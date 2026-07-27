@@ -103,3 +103,73 @@ a{
         padding-top: 150px;
     }
 }
+@media (min-width: 1024px) and (max-width: 1439px){
+    .card{
+        width: 600px;
+        margin-left: 200px;
+    }
+    .number{
+        width: 400px;
+    }
+    .password{
+        width: 400px;
+    }
+    .Register{
+        left: 48.5%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .card{
+        width: 500px;
+        height: 600px;
+        margin-left: 125px;
+        margin-top: 100px;
+    }
+    .Entrance{
+        padding-top: 120px;
+    }
+    .number{
+        width: 400px;
+        left: 10%;
+    }
+    .password{
+        width: 400px;
+        left: 10%;
+    }
+    .Register{
+        left: 48.5%;
+    }
+    .Send-code{
+        left: 24%;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px){
+    .btn-back{
+        font-size: 15px;
+        padding-left: 0;
+    }
+    .card{
+        width: 350px;
+        height: 600px;
+        margin-left: 5px;
+        margin-top: 100px;
+    }
+    .Entrance{
+        padding-top: 120px;
+    }
+    .number{
+        width: 300px;
+        left: 6%;
+    }
+    .password{
+        width: 300px;
+        left: 6%;
+    }
+    .Register{
+        left: 37%;
+        font-size: 23px;
+    }
+    .Send-code{
+        left: 15%;
+    }
+}
