@@ -754,8 +754,8 @@ body{
     }
     .Kol-vo{
         font-size: 18px;
-        top: 78%;
-        left: 8%;
+        top: 85.5%;
+        left: 25%;
     }
     .card1 .kol-vo-plus{
         font-size: 20px;
@@ -780,8 +780,8 @@ body{
     }
     .Kol-vo2{
         font-size: 18px;
-        top: 78%;
-        left: 8%;
+        top: 85.5%;
+        left: 25%;
     }
     .card2 .kol-vo-plus{
         font-size: 20px;
@@ -842,7 +842,7 @@ body{
     }
     .price1{
         font-size: 14px;
-        top: 12%;
+        top: 10%;
         left: 87%;
     }
     .name1 + img{
@@ -868,7 +868,7 @@ body{
     }
     .price2{
         font-size: 14px;
-        top: 22%;
+        top: 20%;
         left: 87%;
     }
     .name2 + img{
