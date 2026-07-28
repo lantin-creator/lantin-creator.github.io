@@ -60,6 +60,13 @@ a{
     color: white; 
     font-size: 16px;
 }
+.number{
+    position: absolute; 
+    top: 33%; 
+    left: 2%; 
+    color: white; 
+    font-size: 16px;
+}
 .btn-back{
     background-color: inherit;
     padding-top: 20px;
@@ -286,24 +293,96 @@ a{
         left: 28%;   
     }
 }
-@media (min-width: 768px) and (max-width: 1020px){
+@media (min-width: 768px) and (max-width: 1023px){
     .upload-container{
-        margin-top: 30px;
-        left: 19%;
+        left: 24%;
     }
     .Register{
-        left: 25%;
+        left: 33%;
     }
     .name, .second-name, .addres{
-        left: 30%;
+        left: 37%;
     }
     .Name, .Second-name, .City{
-        left: 30%;   
+        left: 37%;   
     }
 }
-@media (min-width: 320px) and (max-width: 760px){
+@media (min-width: 320px) and (max-width: 767px){
+    .btn-back{
+        font-size: 15px;
+        padding-left: 0;
+        padding-top: 0;
+        width: 170px;
+    }
     .upload-container{
-        margin-top: 110px;
-        left: 20%;
+        left: 54%;
+    }
+    .Register{
+        font-size: 25px;
+        left: 47%;
+    }
+    .name{
+        top: 12%;
+        left: 5%;
+    }
+    .Name{
+        top: 16%;
+        left: 5%;
+    }
+    .Birthday{
+        left: 4%;
+        top: 21%;
+    }
+    .birthday{
+        top: 25%;
+        left: 4%;
+    }
+    .mail{
+        top: 30%;
+        left: 4%;
+    }
+    .Mail{
+        top: 34%;
+        left: 4%;
+    }
+    .second-name{
+        top: 39%;
+        left: 4%;
+    }
+    .Second-name{
+        top: 43%;
+        left: 4%;
+    }
+    .number{
+        top: 48%;
+        left: 4%;
+    }
+    .Number{
+        top: 52%;
+        left: 4%;
+    }
+    .addres{
+        top: 56.5%;
+        left: 4%;
+    }
+    .City{
+        top: 61%;
+        left: 4%;
+    }
+    .card{
+        top: 66%;
+        left: 4%;
+    }
+    .Card-for-payment{
+        top: 70.5%;
+        left: 4%;
+    }
+    .Password{
+        top: 75%;
+        left: 4%;
+    }
+    .password{
+        top: 80%;
+        left: 4%;
     }
 }
